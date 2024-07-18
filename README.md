@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Alchemy University Final Project(Notary Contract with NFTs)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
+This project demonstrates a basic notary usecase. It has 2 NFT contract one for car and one for house.
+And also notary contract for notary operations.
+You can run the tests by using below scripts.
 
 ```shell
-npx hardhat help
+npm i
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Notary.js
 ```
